@@ -1,0 +1,102 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  #martin_photo {
+  border-radius: 300px;
+  }
+
+.first_part {
+  background-color: #BDE4F4;
+  border-radius: 20px;
+  padding: 2px;
+  margin-bottom: 15px;
+
+}
+
+  .weblink {
+  color: black;
+  text-decoration: none
+  }
+
+  .weblink:hover {
+  color: red;
+  }
+
+.part2 {
+  color: white;
+  background-color: #BDE4F4;
+  border-radius: 20px;
+  padding: 2px;
+  margin-bottom: 15px;
+
+}
+
+.part3{
+  background-color: #BDE4F4;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+}
+
+  #photo_sailing {
+    border-radius: 30px;
+  }
+
+  #photo_optimist {
+    border-radius: 30px;
+  }
+
+.last_part{
+  background-color: #BDE4F4;
+  border-radius: 20px;
+  padding: 2px;
+  margin-bottom: 15px;
+
+}
+
+h1, h2 {
+  font-family: Montserrat, sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(70, 46, 1);
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(138, 102, 066);
+  font-size: 35px;
+}
+
+table {
+  margin: auto;
+  font-family: Courier
+}
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
